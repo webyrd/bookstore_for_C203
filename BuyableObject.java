@@ -1,10 +1,13 @@
 public class BuyableObject {
 
   // Information
-  float price;
+  private float price;
   
   // Behavior
   // Messages
-  
+
+  public static void main(String[] args) {
+
+  }
   
 }
