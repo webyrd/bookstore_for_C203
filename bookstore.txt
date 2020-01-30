@@ -1,0 +1,64 @@
+Bookstore  e-commerce
+
+objects
+-------
+customer class
+  information
+    
+  behavior
+    
+  messages
+    
+
+shopping_cart class inherits from Object
+  information
+    contents   (list of buyableObject)
+    user
+  behavior
+    calculateTotalPrice
+    howManyThings
+  messages
+    totalPricePlease
+    displayContents
+
+buyableObject inherits from Object
+  information
+    price
+  behavior
+  messages
+    showInfo
+    pricePlease
+    addToShoppingCart myShoppingCart
+
+toilet class inherits from buyableObject
+  information
+    manufacturer
+    size
+  behavior
+    calculatePrice
+  messages
+    pricePlease
+    addToShoppingCart myShoppingCart
+
+book class inherits from buyableObject
+  information
+    title:
+    price:
+    genre:
+  behavior:
+    countPages
+    addMyselfToShoppingCart
+  messages
+    titlePlease
+    pricePlease
+    genrePlease
+    pageCountPlease
+    mutilateBook
+    addToShoppingCart myShoppingCart
+
+book ISA buyableObject
+
+cat ISA feline ISA mammal ISA animal
+dog ISA canine ISA
+	
+person ISA object
