@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class ShoppingCart {
 
-  public List<BuyableObject> contents;
+  private List<BuyableObject> contents;
 
   public ShoppingCart() {
     contents = new ArrayList<BuyableObject>();
