@@ -1,8 +1,7 @@
 public abstract class BuyableObject {
 
   // Information
-  // TODO make price non-public
-  public double price;
+  protected double price;
   
   // Behavior
   // Messages
